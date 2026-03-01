@@ -11,7 +11,9 @@ To change the model: edit MODEL below.
 To change memory length: edit MAX_HISTORY below.
 """
 
+import os
 from anthropic import Anthropic
+from dotenv import load_dotenv
 
 # ─── YOUR API KEY ─────────────────────────────────────────────────────────────
 load_dotenv()
